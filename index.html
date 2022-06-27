@@ -11,49 +11,37 @@
 </head>
 
 <body>
-<div id="quote-box" class="container-fluid my-5 py-3 rounded-3">
+<div id="quote-box">
   
-  <h3 id="text" class="row text-center p-2 fs-1 g-0">
-    <div class="col-2 align-self-center">
+  <h3 id="text">
+    <div>
       <i class="fa-solid fa-quote-left"></i>
     </div>
-    <div class="quote-text col-8 text-break">
+    <div id="quote-text">
       Quote
     </div>
-    <div class="col-2 align-self-center">
+    <div>
       <i class="fa-solid fa-quote-right"></i>
     </div>
   </h3>
   
-  <div class="row">
-    <h4 id="author" class="col-12 text-end pb-2 pe-4 fs-5">- Author</h4>
+  <div>
+    <h4 id="author">- Author</h4>
   </div>
   
-  <div id="buttons" class="row g-0">
-    <div class="col-11">
-      <button id="new-quote" class="btn" onclick="getQuote(quotesData)">
+  <div id="buttons">
+    <div>
+      <button id="new-quote" onclick="getQuote(quotesData)">
         New quote
       </button>
     </div>
-    <div 
-        class="col-1 
-               text-center 
-               d-flex align-items-center justify-content-end
-              "
-    >
-      <a 
-        id="tweet-quote"
+    <div>
+      <a id="tweet-quote"
         href="https://twitter.com/intent/tweet" 
         target="_blank" 
         rel="noreferrer"
-        class="text-decoration-none"
       >
-        <div class="icon 
-                    rounded-2
-                    fs-4
-                    d-flex align-items-center justify-content-center
-                   "
-        >
+        <div class="icon">
           <i class="fa-brands fa-twitter"></i>
         </div>
       </a>
