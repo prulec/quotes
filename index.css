@@ -4,11 +4,19 @@ body {
 
 #quote-box {
   display: none;
+  flex-direction: column;
   position: relative;
   margin: auto;
   padding: 1rem 0.5rem;
   width: 600px;
   max-width: 90vw;
+  border-radius: 5px;
+}
+
+#text {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #icon {
