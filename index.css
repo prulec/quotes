@@ -22,13 +22,21 @@ body {
   text-align: center;
 }
 
-#icon {
-  height: 38px;
-  width: 38px;
+#author {
+  
+}
+
+#buttons {
+  
 }
 
 #new-quote {
   font-weight: bold;
+}
+
+#icon {
+  height: 38px;
+  width: 38px;
 }
 
 #by {
