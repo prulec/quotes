@@ -3,7 +3,7 @@ body {
 }
 
 #quote-box {
-  display: none;
+  display: flex;
   flex-direction: column;
   position: relative;
   margin: auto;
