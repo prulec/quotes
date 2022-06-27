@@ -17,10 +17,15 @@ body {
 #text {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
-#text > .fa-solid, #quote-text {
+#text > div, #quote-text {
   text-align: center;
+}
+
+#quote-text {
+  width: 84%;
 }
 
 #author {
