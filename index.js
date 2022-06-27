@@ -30,10 +30,12 @@ const getColor = () => {
   
   $body.style.color = $body.style.backgroundColor
 
-  const $icon = document.querySelector('#icon > i')
+  /*
+  const $icon = document.querySelector('.icon > i')
   $icon.style.color = $body.style.backgroundColor
+  */
 
-  const $button = document.querySelector('#new-quote')
+  const $button = document.querySelector('#new-quote > button')
   $button.style.color = $body.style.backgroundColor
     
 }
@@ -60,11 +62,11 @@ fetch("https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f
     
     $body.style.backgroundColor = "#5B6157"
   
-    const $error = document.createElement("h3")
+    const $error = document.createElement("h2")
     $error.textContent = `Error: ${err.status}`
     $error.style.color = "white"
     $error.style.textAlign = "center"
-    $error.style.padding = "20px"
+    $error.style.padding = "3rem"
   
     $body.appendChild($error)
   })
