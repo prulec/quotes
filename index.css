@@ -5,6 +5,8 @@ body {
 #quote-box {
   display: none;
   position: relative;
+  margin: auto;
+  padding: 1rem 0.5rem;
   width: 600px;
   max-width: 90vw;
 }
