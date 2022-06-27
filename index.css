@@ -29,14 +29,15 @@ body {
 }
 
 #author {
-  
+  text-align: right;
 }
 
 #buttons {
-  
+  display: flex;
 }
 
 #new-quote {
+  flex: 0 0 90%;
   font-weight: bold;
 }
 
