@@ -30,7 +30,7 @@ const getColor = () => {
   
   $body.style.color = $body.style.backgroundColor
 
-  const $icon = document.querySelector('.icon > i')
+  const $icon = document.querySelector('#icon > i')
   $icon.style.color = $body.style.backgroundColor
 
   const $button = document.querySelector('#new-quote')
@@ -41,7 +41,7 @@ const getColor = () => {
 const getQuote = (quotesArray) => {
   const index = Math.floor(Math.random() * quotesArray.length)
   const { quote, author } = quotesArray[index]
-  document.querySelector(".quote-text").textContent = quote
+  document.querySelector("#quote-text").textContent = quote
   document.querySelector("#author").textContent = `- ${author}`
   getColor()
 }
