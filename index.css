@@ -87,6 +87,12 @@ body {
 
 @media (orientation: portrait) and (max-device-width: 600px) {
   :root {
+    font-size: 24px;
+  }
+}
+
+@media (orientation: portrait) and (max-device-width: 414px) {
+  :root {
     font-size: 32px;
   }
 }
