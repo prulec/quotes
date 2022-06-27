@@ -52,7 +52,7 @@ fetch("https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f
   .then(res => res.ok ? res.json() : Promise.reject(res))
   .then(json => {
     quotesData = json.quotes
-    $quoteBox.style.display = "inherit"
+    $quoteBox.style.display = "flex"
     getQuote(quotesData)
   })
   .catch(err => {
