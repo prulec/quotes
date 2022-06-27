@@ -1,6 +1,5 @@
 body {
   font-family: 'Playfair Display', serif;
-  display: flex;
 }
 
 #quote-box {
@@ -12,7 +11,7 @@ body {
   max-width: 90vw;
 }
 
-.icon {
+#icon {
   height: 38px;
   width: 38px;
 }
